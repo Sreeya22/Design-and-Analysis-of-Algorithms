@@ -1,3 +1,4 @@
+//Quick Sort Application
 #include<stdio.h>
 #include<string.h>
 
