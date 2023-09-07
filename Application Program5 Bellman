@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+#define MAX_CITIES 100
+#define INF INT_MAX
+
+struct Edge {
+    int source, destination, weight;
+};
+
+struct Graph {
+    int V, E;
+    struct Edge* edges;
+};
+
+struct Graph* createGraph(int V, int E) {
+    struct Graph* graph = (struct Graph*)malloc(sizeof(struct Graph));
+    graph->V = V;
+    graph->E = E;
+    graph->edges = (struct Edge*)malloc(E * sizeof(struct Edge));
+    return graph;
+}
+
+void BellmanFord(struct Graph* graph, int source) {
+    int V = graph->V;
+    int E = graph->E;
+    int distance[V];
+
+    for (int i = 0; i < V; i++) {
+        distance[i] = INF;
+    }
+    distance[source] = 0;
+
+    for (int i = 1; i <= V - 1; i++) {
+        for (int j = 0; j < E; j++) {
+            int u = graph->edges[j].source;
+            int v = graph->edges[j].destination;
+            int weight = graph->edges[j].weight;
+            if (distance[u] != INF && distance[u] + weight < distance[v]) {
+                distance[v] = distance[u] + weight;
+            }
+        }
+    }
