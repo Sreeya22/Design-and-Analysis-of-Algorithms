@@ -2,19 +2,19 @@
 This repository features a comprehensive collection of algorithmic implementations and applications written in C. Each program includes design, complexity analysis, and example applications to support learning and practical usage of algorithms.
 
 ## Application Programs
-1. **Application Program 1** - Student Register: Manages a basic student registry using array operations and linked lists.
-2. **Application Program 2** - Phone No. Management: Stores and retrieves phone numbers with linear and binary search techniques.
-3. **Application Program 3 **- Depth-First Search (DFS): Implements DFS for graph traversal, analyzing node discovery and connectivity.
+1. **Application Program 1:** Student Register: Manages a basic student registry using array operations and linked lists.
+2. **Application Program 2:** Phone No. Management: Stores and retrieves phone numbers with linear and binary search techniques.
+3. **Application Program 3:** Depth-First Search (DFS): Implements DFS for graph traversal, analyzing node discovery and connectivity.
 4. **Application Program 4:** Reserved for future implementations.
-5. **Application Program 5** - Bellman-Ford Algorithm: Calculates shortest paths in weighted graphs, handling negative weights.
-6. **Application Program 6 **- Minimum Spanning Tree (MST): MST construction for connected graphs using Prim’s and Kruskal’s algorithms.
+5. **Application Program 5:**  Bellman-Ford Algorithm: Calculates shortest paths in weighted graphs, handling negative weights.
+6. **Application Program 6:** Minimum Spanning Tree (MST): MST construction for connected graphs using Prim’s and Kruskal’s algorithms.
 7. **Application Program 7:** General placeholder for future programs.
 
 ## Sorting Algorithms
 1. **Bubble Sort:** A fundamental comparison-based sorting algorithm with time complexity analysis.
 2. **Insertion Sort:** Efficient for small or nearly sorted datasets, featuring adaptive sorting behavior.
-3. **Selection Sort: **A simple, comparison-based sorting algorithm that repeatedly finds the minimum element.
-4. **Merge Sort**: Divide-and-conquer sorting with recursive splitting and merging, ideal for large datasets.
+3. **Selection Sort:** A simple, comparison-based sorting algorithm that repeatedly finds the minimum element.
+4. **Merge Sort:** Divide-and-conquer sorting with recursive splitting and merging, ideal for large datasets.
 5. **Quick Sort:** Efficient, in-place sorting using partitioning with average-case time complexity.
 
 ## Graph Algorithms
